@@ -4,6 +4,8 @@ import PeopleIcon from '@mui/icons-material/People';
 import AddTaskIcon from '@mui/icons-material/AddTask';
 import LogoutIcon from '@mui/icons-material/Logout';
 import DashboardIcon from '@mui/icons-material/Dashboard';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+
 const Header = () => {
   return (
     <AppBar position="static" color="primary">
@@ -19,6 +21,9 @@ const Header = () => {
         </Tooltip>
         <Tooltip title="Add task">
           <AddTaskIcon sx={{ mx: 1.5}} />
+        </Tooltip>
+        <Tooltip title="Profile">
+          <AccountCircleIcon sx={{ mx: 1.5 }} />
         </Tooltip>
         <Tooltip title="Logout">
           <LogoutIcon sx={{ mx: 1.5 }} />
