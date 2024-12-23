@@ -26,6 +26,8 @@ const SignUp = () => {
           align="center"
           sx={{ mb: 3, color: 'secondary.main' }}
         >
+          DustBuddies
+          <br/>
           Sign Up
         </Typography>
         <Box component="form" noValidate autoComplete="off">
